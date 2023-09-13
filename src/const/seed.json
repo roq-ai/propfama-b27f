@@ -1,0 +1,2322 @@
+[
+  {
+    "security": [
+      {
+        "id": "cbda4d41-31cb-44db-ac46-4bfac0b2274d",
+        "protocol": "HTTPS",
+        "encryption": "AES",
+        "created_at": "2023-09-13T00:56:15.638Z",
+        "updated_at": "2023-09-13T14:44:24.386Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f26bf29d-76a6-408c-81d9-0dd0be814e2e",
+        "protocol": "SSH",
+        "encryption": "RSA",
+        "created_at": "2023-09-13T10:11:20.851Z",
+        "updated_at": "2023-09-13T03:27:50.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd88e3ca-8112-495c-b263-355ff0475382",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-12T22:45:02.344Z",
+        "updated_at": "2023-09-13T13:27:41.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "848e0172-7cd7-4c6f-9156-5cfdfb947147",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T08:54:06.051Z",
+        "updated_at": "2023-09-13T04:11:05.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19300a96-2cf6-4ca9-9540-118a7981e137",
+        "protocol": "WPA2",
+        "encryption": "ChaCha20",
+        "created_at": "2023-09-13T12:58:07.705Z",
+        "updated_at": "2023-09-12T22:14:39.056Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "17f815cd-fc5b-4001-99e3-6f87f8c9dac3",
+        "address": "123 Main Street",
+        "price": 56003,
+        "bedrooms": 34975,
+        "bathrooms": 19886,
+        "sqft": 82942,
+        "created_at": "2023-09-13T12:04:15.319Z",
+        "updated_at": "2023-09-13T07:42:40.235Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "495df3d9-d110-4d0d-9f28-b7b14d122280",
+        "address": "456 Elm Avenue",
+        "price": 72493,
+        "bedrooms": 638,
+        "bathrooms": 5146,
+        "sqft": 78014,
+        "created_at": "2023-09-13T01:17:03.654Z",
+        "updated_at": "2023-09-13T04:30:24.140Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "37083292-b49f-4494-8c98-903d08873c2f",
+        "address": "789 Oak Drive",
+        "price": 93293,
+        "bedrooms": 21733,
+        "bathrooms": 97623,
+        "sqft": 32857,
+        "created_at": "2023-09-13T17:58:04.534Z",
+        "updated_at": "2023-09-13T08:01:07.882Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "842144c0-0ac8-471e-8ea7-0ea2c41b6ed8",
+        "address": "321 Maple Lane",
+        "price": 80662,
+        "bedrooms": 72688,
+        "bathrooms": 70344,
+        "sqft": 44544,
+        "created_at": "2023-09-13T14:44:47.735Z",
+        "updated_at": "2023-09-13T08:56:21.943Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "16b25f3d-765d-485b-9062-19736b55c05d",
+        "address": "654 Pine Road",
+        "price": 89965,
+        "bedrooms": 75884,
+        "bathrooms": 64758,
+        "sqft": 81849,
+        "created_at": "2023-09-13T03:03:08.986Z",
+        "updated_at": "2023-09-13T20:42:15.880Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "80c07034-9af0-48c5-a40b-3c6e76aceb5d",
+        "name": "Sales Data",
+        "source": "Internal CRM",
+        "created_at": "2023-09-13T20:39:30.332Z",
+        "updated_at": "2023-09-13T00:50:48.859Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64b158ee-671e-4ba2-ba82-252231f264b7",
+        "name": "Customer Data",
+        "source": "Third-party API",
+        "created_at": "2023-09-13T01:17:03.325Z",
+        "updated_at": "2023-09-13T20:59:23.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82a4978e-7ea6-4640-8bcb-a7154c17b617",
+        "name": "Product Data",
+        "source": "Website Analytics",
+        "created_at": "2023-09-13T14:50:09.057Z",
+        "updated_at": "2023-09-12T22:30:24.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "046dfe04-ffff-4ae4-9d53-ab454d0bcf84",
+        "name": "Inventory Data",
+        "source": "Social Media",
+        "created_at": "2023-09-13T11:38:08.228Z",
+        "updated_at": "2023-09-13T04:55:47.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3081ba7-e360-4162-b5d4-4dd837a8c340",
+        "name": "Marketing Data",
+        "source": "Market Research",
+        "created_at": "2023-09-13T07:44:58.997Z",
+        "updated_at": "2023-09-13T04:12:40.939Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "e7f55dc5-1709-4f23-9395-9a280a6b600c",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T21:00:36.513Z",
+        "updated_at": "2023-09-13T11:25:12.079Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e52e9e-f9fd-4d99-9446-9d17d26a38c5",
+        "name": "Stock Market API",
+        "url": "https://api.stockmarket.com",
+        "created_at": "2023-09-13T18:54:15.568Z",
+        "updated_at": "2023-09-13T05:27:00.731Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e556d808-a4a1-42c3-ac5e-6a8bfdc02877",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T16:37:16.283Z",
+        "updated_at": "2023-09-13T08:42:18.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f022cfae-b0b1-4f3b-9173-17bc6f87ba4b",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T05:19:33.101Z",
+        "updated_at": "2023-09-13T01:22:51.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "854d96c0-955b-4245-8166-a00d9db4e879",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T10:28:07.023Z",
+        "updated_at": "2023-09-13T15:26:45.759Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0153d314-f6fd-4d10-920f-0521a0ac9db6",
+        "email": "Montana_Gutkowski61@hotmail.com",
+        "firstName": "Gail",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2319462",
+        "tenantId": null
+      },
+      {
+        "reference": "24b37410-9ed2-45f0-97db-4a8afa9f5d12",
+        "email": "Lolita_Morar@hotmail.com",
+        "firstName": "Chanel",
+        "lastName": "Turner-Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34015655",
+        "tenantId": null
+      },
+      {
+        "reference": "0f7bb53a-c8a9-4861-b904-8f7d49f762fe",
+        "email": "Alverta_Fritsch78@hotmail.com",
+        "firstName": "Brenda",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80206171",
+        "tenantId": null
+      },
+      {
+        "reference": "f23f7cb2-62bf-49ed-a678-f1b2a37d03cc",
+        "email": "Herta_Lesch@yahoo.com",
+        "firstName": "Winona",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37283781",
+        "tenantId": null
+      },
+      {
+        "reference": "b96ad927-1e2e-48c8-a024-16231f4ee9d1",
+        "email": "Art.Orn@gmail.com",
+        "firstName": "Keenan",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/168.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "4d9e6c46-adad-42c6-b19c-e130a301a8d9",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T11:35:49.105Z",
+        "updated_at": "2023-09-13T19:38:50.875Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c31d6c49-99b0-4a85-bf4e-e0c91021e10d",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T13:50:25.212Z",
+        "updated_at": "2023-09-13T13:54:19.256Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a03de5a-aebf-43c9-a436-99cd3bf4dba4",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T18:36:23.864Z",
+        "updated_at": "2023-09-13T01:53:28.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7c44472-2a34-47e0-9d64-717b441ba371",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-12T23:29:37.123Z",
+        "updated_at": "2023-09-13T11:42:52.518Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d11727f-ffa5-4da1-93fa-73af2483f390",
+        "protocol": "SFTP",
+        "encryption": "Triple DES",
+        "created_at": "2023-09-13T08:51:11.440Z",
+        "updated_at": "2023-09-13T16:46:20.635Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "7d954875-0b05-4c00-bc6a-a40927ea58cb",
+        "address": "123 Main Street",
+        "price": 17574,
+        "bedrooms": 28320,
+        "bathrooms": 48821,
+        "sqft": 66069,
+        "created_at": "2023-09-13T05:26:32.252Z",
+        "updated_at": "2023-09-13T15:21:40.704Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c40f74bc-4e44-4d91-87f2-ecde27947f24",
+        "address": "456 Park Avenue",
+        "price": 23043,
+        "bedrooms": 51042,
+        "bathrooms": 4138,
+        "sqft": 67038,
+        "created_at": "2023-09-12T21:32:54.767Z",
+        "updated_at": "2023-09-13T18:28:45.401Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93e059c8-e76c-4458-828d-20f1bc497680",
+        "address": "789 Elm Road",
+        "price": 43239,
+        "bedrooms": 27147,
+        "bathrooms": 214,
+        "sqft": 86771,
+        "created_at": "2023-09-13T01:40:50.145Z",
+        "updated_at": "2023-09-13T07:06:20.355Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1016c261-ecbe-4ae8-8f6c-02494640ffca",
+        "address": "987 Oak Lane",
+        "price": 82083,
+        "bedrooms": 60012,
+        "bathrooms": 9795,
+        "sqft": 87944,
+        "created_at": "2023-09-12T21:38:58.136Z",
+        "updated_at": "2023-09-13T06:10:12.319Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5a9f1eac-abaa-404d-abbf-97453801791e",
+        "address": "654 Pine Street",
+        "price": 7743,
+        "bedrooms": 93582,
+        "bathrooms": 27513,
+        "sqft": 29837,
+        "created_at": "2023-09-13T00:20:56.793Z",
+        "updated_at": "2023-09-13T16:30:45.318Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "aba462b6-d888-4cae-a440-6d86d21d94dd",
+        "name": "Sales Data",
+        "source": "Internal CRM system",
+        "created_at": "2023-09-13T07:25:35.208Z",
+        "updated_at": "2023-09-13T10:58:56.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c7f62fc-c522-484a-824e-6a1798955394",
+        "name": "Customer Data",
+        "source": "Third-party data provider",
+        "created_at": "2023-09-13T05:50:32.806Z",
+        "updated_at": "2023-09-13T14:57:25.956Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdccc8b2-6833-4a67-bbe0-978764656152",
+        "name": "Product Data",
+        "source": "Online survey responses",
+        "created_at": "2023-09-13T02:16:34.872Z",
+        "updated_at": "2023-09-13T08:23:02.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b9229df-1293-4b86-8dcc-0db2135212bd",
+        "name": "Inventory Data",
+        "source": "Point-of-sale systems",
+        "created_at": "2023-09-13T09:57:46.452Z",
+        "updated_at": "2023-09-13T00:34:47.558Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29df5131-3012-4e34-86ac-5e913289a752",
+        "name": "Marketing Data",
+        "source": "Social media analytics",
+        "created_at": "2023-09-13T15:34:49.404Z",
+        "updated_at": "2023-09-13T06:20:50.849Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "b6e63bdf-3417-4c6c-aa11-388e9cd59502",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T21:03:58.389Z",
+        "updated_at": "2023-09-13T11:25:58.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9ba7199-85af-463f-8421-6702f2cee528",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T00:02:14.566Z",
+        "updated_at": "2023-09-12T21:37:40.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c40cf9fb-ea87-490a-a025-1355eb64d09c",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T18:22:52.699Z",
+        "updated_at": "2023-09-13T19:03:45.824Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c56ef00-d04e-4ab5-98c7-d8707a86ac5b",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T18:06:15.265Z",
+        "updated_at": "2023-09-13T18:27:55.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09b90e76-fb97-486d-8bba-90b8a687ba7f",
+        "name": "Email Delivery API",
+        "url": "https://api.emaildelivery.com",
+        "created_at": "2023-09-13T12:16:31.256Z",
+        "updated_at": "2023-09-13T03:40:42.568Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25717b8e-39a2-4908-befb-a69db2a703e7",
+        "email": "Ayla.Parisian58@yahoo.com",
+        "firstName": "Osvaldo",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4771243",
+        "tenantId": null
+      },
+      {
+        "reference": "77a4476b-662a-4f6f-997e-38f4826143e8",
+        "email": "Madilyn_Rogahn@hotmail.com",
+        "firstName": "Betsy",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e32b768-db8d-4889-b0e0-a39849f89a2b",
+        "email": "Mack55@hotmail.com",
+        "firstName": "Stone",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "faac8242-04bc-494b-b14f-16886971e28a",
+        "email": "Christiana99@hotmail.com",
+        "firstName": "Keegan",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91744831",
+        "tenantId": null
+      },
+      {
+        "reference": "3777cc0a-78d5-4acf-96ea-cb7fe58285a6",
+        "email": "Alek.Von@hotmail.com",
+        "firstName": "Etha",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "43f9864a-29bd-4b2b-9838-52d99656191c",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T00:13:19.566Z",
+        "updated_at": "2023-09-13T16:25:22.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8ac7440-63ee-4b44-a7a2-b218b8d53bf7",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T13:23:32.978Z",
+        "updated_at": "2023-09-13T10:20:56.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d112477c-842c-47c4-a1f7-4c7cc60229bf",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T12:56:29.667Z",
+        "updated_at": "2023-09-13T13:44:53.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8276b3b6-dd16-4481-8836-f2d3f38e8721",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T11:02:09.184Z",
+        "updated_at": "2023-09-13T07:35:00.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a127e771-6d0b-47f7-8f89-777f91a24422",
+        "protocol": "WPA2",
+        "encryption": "ChaCha20",
+        "created_at": "2023-09-13T15:04:27.178Z",
+        "updated_at": "2023-09-13T14:19:35.323Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "26d7e1f6-9bce-4bb6-ad64-42e914b79f21",
+        "address": "123 Main Street",
+        "price": 19259,
+        "bedrooms": 34305,
+        "bathrooms": 70276,
+        "sqft": 66614,
+        "created_at": "2023-09-13T09:11:34.773Z",
+        "updated_at": "2023-09-13T20:44:02.202Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f2680ede-55c4-4efd-a4dd-91ed241b1b08",
+        "address": "456 Elm Avenue",
+        "price": 38552,
+        "bedrooms": 38887,
+        "bathrooms": 25598,
+        "sqft": 44809,
+        "created_at": "2023-09-13T10:39:06.881Z",
+        "updated_at": "2023-09-13T20:57:08.635Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13e96e30-34dd-4ee1-a69f-6581891951cd",
+        "address": "789 Oak Drive",
+        "price": 71622,
+        "bedrooms": 52383,
+        "bathrooms": 8536,
+        "sqft": 41527,
+        "created_at": "2023-09-13T01:45:19.159Z",
+        "updated_at": "2023-09-13T06:15:35.846Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d20b3411-6f0e-4b7e-bcf0-519fcb023357",
+        "address": "321 Pine Lane",
+        "price": 9836,
+        "bedrooms": 41451,
+        "bathrooms": 29384,
+        "sqft": 73390,
+        "created_at": "2023-09-13T14:20:28.876Z",
+        "updated_at": "2023-09-13T03:14:05.243Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5ff21ef7-efcc-4bf5-8266-ea2dd202560a",
+        "address": "654 Maple Road",
+        "price": 10672,
+        "bedrooms": 82105,
+        "bathrooms": 27969,
+        "sqft": 57283,
+        "created_at": "2023-09-13T06:43:47.658Z",
+        "updated_at": "2023-09-13T10:47:23.921Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "c5c81544-fac4-4588-a69d-c47fb4278539",
+        "name": "Sales Data",
+        "source": "CRM System",
+        "created_at": "2023-09-13T15:38:11.880Z",
+        "updated_at": "2023-09-12T22:35:23.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17e87fdd-e15c-4ba8-8bd8-0f8159a4281b",
+        "name": "Customer Data",
+        "source": "E-commerce Platform",
+        "created_at": "2023-09-13T20:21:20.843Z",
+        "updated_at": "2023-09-13T05:55:48.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25e215d2-e174-404e-b123-538ed30ee871",
+        "name": "Product Data",
+        "source": "ERP System",
+        "created_at": "2023-09-13T07:00:23.405Z",
+        "updated_at": "2023-09-13T18:08:14.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "480d1f93-bf6c-4671-ada4-427e591783d3",
+        "name": "Inventory Data",
+        "source": "Social Media Analytics",
+        "created_at": "2023-09-13T01:32:36.432Z",
+        "updated_at": "2023-09-12T23:31:26.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95a2e496-9286-494b-b40c-9847c57ec760",
+        "name": "Marketing Data",
+        "source": "Website Analytics",
+        "created_at": "2023-09-12T21:50:47.285Z",
+        "updated_at": "2023-09-13T16:09:15.019Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "bc65449d-cb8b-46ca-b036-6465025c977b",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T18:59:19.081Z",
+        "updated_at": "2023-09-13T09:07:54.039Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80ce14ae-7059-47df-99e6-34851bda8d4f",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T19:24:40.113Z",
+        "updated_at": "2023-09-13T17:45:35.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e408fac-9331-4c54-aada-f34a8b044f70",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T15:57:29.106Z",
+        "updated_at": "2023-09-13T01:58:07.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8e95fc3-d5c5-434f-8c9f-ecc6d64949bf",
+        "name": "Email Delivery API",
+        "url": "https://api.emaildelivery.com",
+        "created_at": "2023-09-13T08:20:33.508Z",
+        "updated_at": "2023-09-13T09:34:51.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30479919-9185-46e3-b188-c385dcd96901",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T09:24:04.219Z",
+        "updated_at": "2023-09-13T02:14:16.801Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "14d57685-e51b-43f2-9065-eafe6c2d626a",
+        "email": "Brian65@hotmail.com",
+        "firstName": "Kamron",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1889baa-0bc5-4c28-b6a0-b67640943c21",
+        "email": "Kyra_Reilly@hotmail.com",
+        "firstName": "Trevion",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/145.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f68a790-f5ca-4408-8a69-35939fb29d77",
+        "email": "Amanda_Jast@yahoo.com",
+        "firstName": "Rahsaan",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ec6fc60-5d5f-4340-adea-7d10971271b1",
+        "email": "Judah.Funk@yahoo.com",
+        "firstName": "Isaac",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11869339",
+        "tenantId": null
+      },
+      {
+        "reference": "4a9352a9-35c1-4ec2-b1c3-91d45ff2119a",
+        "email": "Emmanuelle_Shanahan27@gmail.com",
+        "firstName": "Dakota",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75081475",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "3ce6f796-fd97-42b8-906e-a50d65a7539d",
+        "protocol": "HTTPS",
+        "encryption": "AES",
+        "created_at": "2023-09-13T07:19:55.388Z",
+        "updated_at": "2023-09-13T05:45:27.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4353b02-aa6f-45f0-b8b0-23a8031fe858",
+        "protocol": "SSH",
+        "encryption": "RSA",
+        "created_at": "2023-09-13T00:02:26.855Z",
+        "updated_at": "2023-09-13T14:12:33.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce969823-17c9-4bb5-aad9-0a33b2293d40",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T02:41:13.069Z",
+        "updated_at": "2023-09-13T10:06:18.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b235a7cc-48cd-4a64-bb56-11933b1e6dca",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T18:13:51.956Z",
+        "updated_at": "2023-09-12T22:23:32.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78627748-2180-4b16-ba9d-44249c1fab91",
+        "protocol": "WPA2",
+        "encryption": "3DES",
+        "created_at": "2023-09-13T16:46:31.212Z",
+        "updated_at": "2023-09-13T13:37:41.668Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "bf58859f-6216-449c-acfe-39b69bb4fb70",
+        "address": "123 Main Street",
+        "price": 3509,
+        "bedrooms": 57942,
+        "bathrooms": 88711,
+        "sqft": 58453,
+        "created_at": "2023-09-13T05:15:11.994Z",
+        "updated_at": "2023-09-13T04:17:11.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41d56e22-6242-4da9-adf3-4cc9716b823e",
+        "address": "456 Elm Avenue",
+        "price": 57163,
+        "bedrooms": 29420,
+        "bathrooms": 76876,
+        "sqft": 34905,
+        "created_at": "2023-09-13T11:58:51.627Z",
+        "updated_at": "2023-09-13T20:48:01.465Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a79e3cf4-b50b-40fe-a3a4-182cc3d03a9b",
+        "address": "789 Oak Drive",
+        "price": 42759,
+        "bedrooms": 12695,
+        "bathrooms": 81688,
+        "sqft": 67788,
+        "created_at": "2023-09-13T06:08:42.815Z",
+        "updated_at": "2023-09-13T01:50:35.403Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "272217a9-077c-4b80-ac36-28de621e197a",
+        "address": "321 Pine Lane",
+        "price": 50985,
+        "bedrooms": 49687,
+        "bathrooms": 11970,
+        "sqft": 9083,
+        "created_at": "2023-09-13T17:08:39.937Z",
+        "updated_at": "2023-09-13T06:08:58.131Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "da8cfb02-a33f-4bd4-aad7-44c7035e8b38",
+        "address": "654 Maple Court",
+        "price": 29586,
+        "bedrooms": 78410,
+        "bathrooms": 85644,
+        "sqft": 93955,
+        "created_at": "2023-09-13T04:42:29.737Z",
+        "updated_at": "2023-09-13T06:15:10.662Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "54cddb62-7438-40a6-b781-42d12e768b1a",
+        "name": "Sales Data",
+        "source": "Online Surveys",
+        "created_at": "2023-09-13T18:31:36.446Z",
+        "updated_at": "2023-09-13T12:19:14.738Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00cd3f51-e15d-4787-bc29-7b8e95ee2e3a",
+        "name": "Customer Feedback",
+        "source": "Point of Sale Systems",
+        "created_at": "2023-09-13T08:13:26.486Z",
+        "updated_at": "2023-09-13T16:38:18.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2376060-61c6-48bd-8ecb-e01b0d5c86d7",
+        "name": "Market Research",
+        "source": "Social Media Monitoring",
+        "created_at": "2023-09-13T13:22:34.593Z",
+        "updated_at": "2023-09-13T15:54:10.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b514482f-d44b-4206-9d54-df0d48513d99",
+        "name": "Product Inventory",
+        "source": "Supplier Data",
+        "created_at": "2023-09-13T15:44:48.612Z",
+        "updated_at": "2023-09-13T12:17:25.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fb5a72a-c9d2-40fc-b703-a55a739f21b3",
+        "name": "Financial Performance",
+        "source": "Internal Records",
+        "created_at": "2023-09-13T16:12:15.471Z",
+        "updated_at": "2023-09-13T01:53:02.692Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "63c5f85a-8f7f-4b2a-87ef-06350ac9c48c",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T09:58:12.050Z",
+        "updated_at": "2023-09-13T16:20:27.092Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bffe8f5d-8e21-4050-b2fe-5372e6b8fd2d",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T16:22:08.381Z",
+        "updated_at": "2023-09-13T00:39:21.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8965a652-004e-47fc-8a46-aaef97fe93de",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T04:03:22.564Z",
+        "updated_at": "2023-09-12T22:25:21.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd493057-a335-4f2b-8f0f-f35f47ea8c1b",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T11:12:46.793Z",
+        "updated_at": "2023-09-13T06:27:58.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0b3f6de-0dd9-4c0d-8da1-418e9f743ec1",
+        "name": "Email Delivery API",
+        "url": "https://api.emaildelivery.com",
+        "created_at": "2023-09-13T07:35:59.592Z",
+        "updated_at": "2023-09-13T07:15:03.776Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f26d7058-a957-41f3-8d2d-76126ec6a41f",
+        "email": "Reece_Howe@hotmail.com",
+        "firstName": "Angus",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63020175",
+        "tenantId": null
+      },
+      {
+        "reference": "51a303b3-afd5-478b-93f4-06f27c911fe6",
+        "email": "Xavier_Daniel@hotmail.com",
+        "firstName": "Jennyfer",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47330581",
+        "tenantId": null
+      },
+      {
+        "reference": "40f5f67c-231b-400b-86cc-120f2f42e2ae",
+        "email": "Kristopher.Mosciski83@gmail.com",
+        "firstName": "Max",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41283556",
+        "tenantId": null
+      },
+      {
+        "reference": "40951663-254f-42db-8460-f5c945037a6a",
+        "email": "Jacklyn41@yahoo.com",
+        "firstName": "Mertie",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/929.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fa07bfb3-d873-4c61-afb4-ce98fae7da29",
+        "email": "Braeden_Kunde@yahoo.com",
+        "firstName": "Rocky",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "b4e5e7a0-d1bf-47c5-be75-708fe36f6d07",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T20:42:19.938Z",
+        "updated_at": "2023-09-13T11:08:17.194Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90fa719e-7ac0-4ee8-9115-657a5584a04f",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T18:38:13.077Z",
+        "updated_at": "2023-09-13T10:08:13.516Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a696f8f0-adfb-4e17-ac74-1aaf35ea3a9b",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T19:39:43.064Z",
+        "updated_at": "2023-09-12T23:05:32.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3fbb51f-3d05-4138-89bc-74e7d8d8d785",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T01:58:24.169Z",
+        "updated_at": "2023-09-13T08:37:48.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a93cf91-4e99-40d3-bdcc-8df91950d27e",
+        "protocol": "WPA2",
+        "encryption": "3DES",
+        "created_at": "2023-09-13T09:46:17.715Z",
+        "updated_at": "2023-09-13T04:08:05.500Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "0b783612-84a8-4855-935a-f598456ae44c",
+        "address": "123 Main Street",
+        "price": 33238,
+        "bedrooms": 75323,
+        "bathrooms": 12450,
+        "sqft": 88816,
+        "created_at": "2023-09-13T01:25:54.116Z",
+        "updated_at": "2023-09-13T10:47:52.751Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "caa758ba-4c27-4217-811f-db0c09f98bfc",
+        "address": "456 Elm Avenue",
+        "price": 19772,
+        "bedrooms": 45308,
+        "bathrooms": 32244,
+        "sqft": 91585,
+        "created_at": "2023-09-13T19:39:37.305Z",
+        "updated_at": "2023-09-13T02:31:13.495Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "603afd50-72f3-49e2-a2b2-e26f378c7e05",
+        "address": "789 Oak Drive",
+        "price": 46089,
+        "bedrooms": 54060,
+        "bathrooms": 28696,
+        "sqft": 61237,
+        "created_at": "2023-09-13T03:10:16.163Z",
+        "updated_at": "2023-09-12T23:08:16.390Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11b0b758-a8ff-43ed-b333-00ea5a75ab40",
+        "address": "101 Maple Lane",
+        "price": 26736,
+        "bedrooms": 77647,
+        "bathrooms": 2426,
+        "sqft": 78908,
+        "created_at": "2023-09-12T23:44:55.843Z",
+        "updated_at": "2023-09-12T21:57:12.434Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d8fbbcb5-96a0-4c9e-9e66-11d6f6e25dc9",
+        "address": "202 Pine Road",
+        "price": 61974,
+        "bedrooms": 30867,
+        "bathrooms": 76756,
+        "sqft": 76635,
+        "created_at": "2023-09-13T13:04:33.445Z",
+        "updated_at": "2023-09-13T15:18:17.012Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "74bd30f0-095e-498d-b5bf-7949f870c92e",
+        "name": "Sales Data",
+        "source": "Internal CRM",
+        "created_at": "2023-09-13T00:03:03.690Z",
+        "updated_at": "2023-09-13T02:12:17.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834b31ac-b792-4252-b4cd-44f8a56f4e95",
+        "name": "Customer Data",
+        "source": "External API",
+        "created_at": "2023-09-13T13:31:52.396Z",
+        "updated_at": "2023-09-13T12:17:27.596Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb222728-3911-48a3-92d4-7dd3b68c7a70",
+        "name": "Product Data",
+        "source": "Data Provider",
+        "created_at": "2023-09-13T20:26:45.813Z",
+        "updated_at": "2023-09-13T12:14:10.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96e78c00-8f0b-49a2-9889-f5264a0c778f",
+        "name": "Financial Data",
+        "source": "Research Study",
+        "created_at": "2023-09-13T18:03:30.481Z",
+        "updated_at": "2023-09-13T14:52:02.350Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6004aed9-7ff6-431c-bcf6-548cece81aef",
+        "name": "Market Data",
+        "source": "Sensor Network",
+        "created_at": "2023-09-13T19:39:47.878Z",
+        "updated_at": "2023-09-12T21:27:56.841Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "f252f1a5-80ab-4a57-9d87-3a1ea4626ed0",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T15:52:40.633Z",
+        "updated_at": "2023-09-13T20:43:13.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0310f485-67cb-44dd-9097-9f039dd1ae66",
+        "name": "Stock Market API",
+        "url": "https://api.stockmarket.com",
+        "created_at": "2023-09-13T05:32:56.361Z",
+        "updated_at": "2023-09-13T18:11:24.921Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b92d809f-c813-4d83-a329-b3e676ae7f06",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T13:40:51.142Z",
+        "updated_at": "2023-09-12T22:24:04.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78469b46-84ce-4a52-952f-b56c416bdad4",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T08:45:04.797Z",
+        "updated_at": "2023-09-12T21:17:13.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c57f9f75-4ebc-4665-83c8-6fad73b7e6cd",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T15:58:32.818Z",
+        "updated_at": "2023-09-13T10:47:59.570Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63bcf547-d5fe-4415-ba12-81fce8aee31a",
+        "email": "Demario_Schmidt35@yahoo.com",
+        "firstName": "Fleta",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43278274",
+        "tenantId": null
+      },
+      {
+        "reference": "65031914-2413-47d7-9758-d81ddff9bf94",
+        "email": "Sandy.Moore34@yahoo.com",
+        "firstName": "Vada",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/704.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d39e8ed9-bd65-49f2-9549-2821195cbb67",
+        "email": "Mathias.Harris@gmail.com",
+        "firstName": "Leif",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38975150",
+        "tenantId": null
+      },
+      {
+        "reference": "29af092f-0cf2-40c5-8f0c-178f9cc5f5e2",
+        "email": "Howard.Stark97@yahoo.com",
+        "firstName": "Abdul",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39990500",
+        "tenantId": null
+      },
+      {
+        "reference": "a9672fcc-31ac-4e7f-8afd-a21d02afe7e1",
+        "email": "Keshaun_Wilderman@gmail.com",
+        "firstName": "Katrine",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/453.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "e0ce3ea2-68af-493e-8d49-a3094b1780b9",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T11:45:04.174Z",
+        "updated_at": "2023-09-13T12:24:13.442Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0348d44c-a2fc-4157-8d3e-6b38ae238631",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-12T21:42:44.072Z",
+        "updated_at": "2023-09-12T22:34:21.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0423ae19-2cea-4f00-9af7-a625664b642e",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T20:13:16.777Z",
+        "updated_at": "2023-09-13T15:34:25.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51ffc10e-e0a9-4b0d-a590-c71ec08a1a34",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T09:26:49.603Z",
+        "updated_at": "2023-09-13T11:39:07.714Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6242de24-5ed2-4765-9902-c88165e5d814",
+        "protocol": "SFTP",
+        "encryption": "ChaCha20",
+        "created_at": "2023-09-13T13:20:52.481Z",
+        "updated_at": "2023-09-13T16:20:21.256Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "885211ad-4424-42a7-90ac-73f2deb384e0",
+        "address": "123 Main Street",
+        "price": 47269,
+        "bedrooms": 92777,
+        "bathrooms": 28211,
+        "sqft": 47829,
+        "created_at": "2023-09-13T12:32:06.159Z",
+        "updated_at": "2023-09-13T14:12:25.446Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c95880bc-9976-4769-8056-21f526f732b3",
+        "address": "456 Elm Avenue",
+        "price": 21273,
+        "bedrooms": 36154,
+        "bathrooms": 35956,
+        "sqft": 42277,
+        "created_at": "2023-09-13T11:18:01.811Z",
+        "updated_at": "2023-09-13T20:18:48.116Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ba9a3bbb-53e0-48b8-9a4e-fecc665222ce",
+        "address": "789 Oak Lane",
+        "price": 68546,
+        "bedrooms": 24338,
+        "bathrooms": 70908,
+        "sqft": 33230,
+        "created_at": "2023-09-13T14:11:38.292Z",
+        "updated_at": "2023-09-12T23:00:56.651Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "be8e5fba-2e6f-44ab-9d9f-e33fe66ebc20",
+        "address": "321 Pine Road",
+        "price": 91445,
+        "bedrooms": 75735,
+        "bathrooms": 82136,
+        "sqft": 98695,
+        "created_at": "2023-09-13T11:21:43.409Z",
+        "updated_at": "2023-09-13T03:10:34.239Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0cac54db-d354-4532-832e-db8c18f2091f",
+        "address": "654 Maple Drive",
+        "price": 18174,
+        "bedrooms": 16041,
+        "bathrooms": 66049,
+        "sqft": 42248,
+        "created_at": "2023-09-13T11:04:07.682Z",
+        "updated_at": "2023-09-13T08:13:15.770Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "7d21edc1-83f8-4e03-ae7c-e766175809d2",
+        "name": "Sales Data",
+        "source": "Retail Store",
+        "created_at": "2023-09-12T22:03:52.313Z",
+        "updated_at": "2023-09-13T13:05:51.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f876fc3-d8c3-43d9-8790-89f71c245bad",
+        "name": "Customer Data",
+        "source": "E-commerce Website",
+        "created_at": "2023-09-13T09:10:52.073Z",
+        "updated_at": "2023-09-13T06:04:00.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d6488d-d813-4930-8c8f-107be9865454",
+        "name": "Product Data",
+        "source": "CRM System",
+        "created_at": "2023-09-13T13:59:21.631Z",
+        "updated_at": "2023-09-13T20:53:41.870Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50c7323f-7332-4eb1-8bea-c9fddceb311d",
+        "name": "Inventory Data",
+        "source": "Warehouse Management System",
+        "created_at": "2023-09-13T08:51:22.287Z",
+        "updated_at": "2023-09-13T04:25:31.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5652da41-eaac-49ae-97c1-1ee9bdcc3a0d",
+        "name": "Marketing Data",
+        "source": "Social Media Platform",
+        "created_at": "2023-09-13T19:59:51.015Z",
+        "updated_at": "2023-09-13T03:35:06.169Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "2722d036-684e-49a7-8104-afb8052f2ba2",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T08:26:20.721Z",
+        "updated_at": "2023-09-13T04:39:34.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7147ca69-3c80-4f2f-9cd4-575603a64e68",
+        "name": "Payment Gateway API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-12T23:03:33.918Z",
+        "updated_at": "2023-09-13T07:23:18.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1164d805-c38c-49f3-b00e-86fe82e450b8",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T15:25:34.301Z",
+        "updated_at": "2023-09-12T23:50:42.568Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24193780-ba4a-4bac-92c4-8b6d02a29920",
+        "name": "Email Service API",
+        "url": "https://api.emailservice.com",
+        "created_at": "2023-09-13T02:11:50.483Z",
+        "updated_at": "2023-09-13T13:13:36.408Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14a7b471-d1bc-460d-8049-7c0befa25830",
+        "name": "Image Recognition API",
+        "url": "https://api.imagerecognition.com",
+        "created_at": "2023-09-13T18:52:08.174Z",
+        "updated_at": "2023-09-12T23:53:37.609Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "478e504e-c6d7-4e33-8b44-dcc27b07f2ab",
+        "email": "Verdie_Konopelski@yahoo.com",
+        "firstName": "Ova",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/302.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc33cb05-cbfd-469e-a9d7-563ad34e8966",
+        "email": "Jennie_Cassin@gmail.com",
+        "firstName": "Don",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/935.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73bd24fe-78a5-4392-bdd2-645209451d04",
+        "email": "Cali.Botsford33@yahoo.com",
+        "firstName": "Rosamond",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40983190",
+        "tenantId": null
+      },
+      {
+        "reference": "4903c68b-5654-4267-81be-da5b531730d6",
+        "email": "Santos_Pfeffer@hotmail.com",
+        "firstName": "Jamie",
+        "lastName": "Weissnat-Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62854281",
+        "tenantId": null
+      },
+      {
+        "reference": "deaa4494-2ba3-4cf5-8eef-59ed7b41abf0",
+        "email": "Jordyn_Borer67@gmail.com",
+        "firstName": "Jensen",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66223017",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "9f0d42e4-d00a-4b7c-abaa-1bf13a646223",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T08:38:07.533Z",
+        "updated_at": "2023-09-12T23:03:44.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a58fa50d-1393-42c6-af96-55e8589282f7",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T01:57:29.190Z",
+        "updated_at": "2023-09-13T00:36:24.599Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a159f77-be31-4d28-b200-2d0d0118de1c",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T09:32:24.485Z",
+        "updated_at": "2023-09-13T14:03:07.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e77b7f1a-ebfd-4c75-82a6-04b6427b7f14",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T14:30:47.111Z",
+        "updated_at": "2023-09-13T19:11:26.858Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6294b88-b494-410e-8904-1eb4826cb266",
+        "protocol": "WPA2",
+        "encryption": "ChaCha20",
+        "created_at": "2023-09-13T02:06:56.249Z",
+        "updated_at": "2023-09-13T16:38:19.858Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "df4f80fc-eece-4829-afd4-07c50488a3db",
+        "address": "123 Main St",
+        "price": 85643,
+        "bedrooms": 49867,
+        "bathrooms": 88155,
+        "sqft": 31859,
+        "created_at": "2023-09-13T17:54:16.813Z",
+        "updated_at": "2023-09-13T07:33:21.318Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "300ad4a1-0d3e-4e93-8e48-c3a24d009198",
+        "address": "456 Elm St",
+        "price": 36244,
+        "bedrooms": 3051,
+        "bathrooms": 2002,
+        "sqft": 57542,
+        "created_at": "2023-09-13T18:12:46.148Z",
+        "updated_at": "2023-09-13T06:24:03.222Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c7133f3-58de-4cb3-9883-b3208d833e32",
+        "address": "789 Oak Ave",
+        "price": 66797,
+        "bedrooms": 73874,
+        "bathrooms": 62442,
+        "sqft": 8192,
+        "created_at": "2023-09-13T11:58:10.420Z",
+        "updated_at": "2023-09-13T17:26:33.819Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e8320d2-e4b8-4b42-b89d-a629d98d151e",
+        "address": "321 Pine Rd",
+        "price": 50067,
+        "bedrooms": 5192,
+        "bathrooms": 93573,
+        "sqft": 73168,
+        "created_at": "2023-09-13T01:32:24.257Z",
+        "updated_at": "2023-09-13T07:38:12.418Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "777e6f7b-ed3f-4f9c-a6e0-30f0bb9ddf61",
+        "address": "654 Maple Ln",
+        "price": 96745,
+        "bedrooms": 51715,
+        "bathrooms": 24409,
+        "sqft": 28525,
+        "created_at": "2023-09-13T04:52:25.396Z",
+        "updated_at": "2023-09-13T05:53:06.842Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "ecb959db-a2bb-4105-aaa6-202b96bbb360",
+        "name": "Sales Data",
+        "source": "CRM System",
+        "created_at": "2023-09-13T08:48:28.050Z",
+        "updated_at": "2023-09-13T20:21:17.485Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d99efb06-4b4e-4a43-ba24-58439276b168",
+        "name": "Customer Data",
+        "source": "E-commerce Platform",
+        "created_at": "2023-09-13T15:58:08.346Z",
+        "updated_at": "2023-09-13T10:32:17.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3be84cde-ec6b-47e1-83ee-ecd1c17a1392",
+        "name": "Product Data",
+        "source": "ERP System",
+        "created_at": "2023-09-13T12:16:30.518Z",
+        "updated_at": "2023-09-13T20:02:35.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea0034bc-3765-46ca-816f-00457b604cd4",
+        "name": "Financial Data",
+        "source": "Market Research",
+        "created_at": "2023-09-13T14:18:11.227Z",
+        "updated_at": "2023-09-13T03:51:09.391Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b3bebdd-e2e4-47c2-9d7d-7c1c17aec48f",
+        "name": "Inventory Data",
+        "source": "Social Media",
+        "created_at": "2023-09-13T18:15:31.908Z",
+        "updated_at": "2023-09-12T23:28:07.863Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "36e320f6-773a-4728-823b-be308f0d8427",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T20:06:58.735Z",
+        "updated_at": "2023-09-13T19:13:44.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f16af559-d0cf-4018-8254-810929481c9b",
+        "name": "Payment API",
+        "url": "https://api.payment.com",
+        "created_at": "2023-09-12T22:42:31.486Z",
+        "updated_at": "2023-09-13T04:43:00.376Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c7deb37-a63c-4a08-9ed1-c9580119c964",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T10:19:01.632Z",
+        "updated_at": "2023-09-13T10:05:57.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08ee99c9-3991-412c-bc10-acdef308427f",
+        "name": "Email API",
+        "url": "https://api.email.com",
+        "created_at": "2023-09-13T01:33:41.638Z",
+        "updated_at": "2023-09-13T08:42:41.892Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "880c7756-080b-459a-aa37-ca9ff2a5aead",
+        "name": "Analytics API",
+        "url": "https://api.analytics.com",
+        "created_at": "2023-09-12T21:33:55.127Z",
+        "updated_at": "2023-09-13T08:38:27.949Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "37cea46d-9177-45a2-8a11-0b85c5636eda",
+        "email": "Camryn.Rath@gmail.com",
+        "firstName": "Gunner",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b967195-a99f-436c-988c-92ccbabda098",
+        "email": "Vickie.Kshlerin41@yahoo.com",
+        "firstName": "Nestor",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/378.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc940d47-c144-4e4f-a829-7886ac4f4fdd",
+        "email": "Aletha.VonRueden@hotmail.com",
+        "firstName": "Damon",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36004089",
+        "tenantId": null
+      },
+      {
+        "reference": "52cf7e97-23ee-4c4a-ab41-9b7fcb4472ab",
+        "email": "Rickey.Schultz90@hotmail.com",
+        "firstName": "Calista",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75167791",
+        "tenantId": null
+      },
+      {
+        "reference": "5bd61d2f-e247-408c-9d0b-9a3389aa6d54",
+        "email": "Ilene.Von50@hotmail.com",
+        "firstName": "Ned",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69385581",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "6e66c777-eef9-4b1e-929f-e237391eff29",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T20:49:28.526Z",
+        "updated_at": "2023-09-13T11:06:03.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d30b172-ff64-4fcb-b888-63c542f8b151",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T03:59:46.665Z",
+        "updated_at": "2023-09-13T01:20:45.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5513cf7c-e904-4aa1-b42c-5fd16f91f82c",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T07:47:07.011Z",
+        "updated_at": "2023-09-12T21:48:21.139Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ff6734-aede-45dc-bfe5-056a819a46aa",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T08:37:29.509Z",
+        "updated_at": "2023-09-13T03:59:09.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a6ea4d5-006b-4d0b-b602-bd1e39ed280e",
+        "protocol": "WPA2",
+        "encryption": "ChaCha20",
+        "created_at": "2023-09-13T17:21:12.203Z",
+        "updated_at": "2023-09-13T19:22:56.980Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "2f1b0d6e-909e-4f83-a8c0-13eb26286151",
+        "address": "123 Main St",
+        "price": 81231,
+        "bedrooms": 17918,
+        "bathrooms": 67216,
+        "sqft": 6487,
+        "created_at": "2023-09-13T12:00:16.928Z",
+        "updated_at": "2023-09-13T12:28:39.661Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e9b229a3-8aac-4e46-81db-429a2383650c",
+        "address": "456 Elm St",
+        "price": 48189,
+        "bedrooms": 2384,
+        "bathrooms": 20144,
+        "sqft": 4539,
+        "created_at": "2023-09-13T05:15:23.712Z",
+        "updated_at": "2023-09-13T19:42:16.645Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "71197aa7-653d-4591-92ec-14742644d6b7",
+        "address": "789 Oak Ave",
+        "price": 6005,
+        "bedrooms": 47890,
+        "bathrooms": 45338,
+        "sqft": 90817,
+        "created_at": "2023-09-13T15:43:10.541Z",
+        "updated_at": "2023-09-13T13:09:12.741Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e540bac-40af-4b03-87fc-1fbbf6c673b8",
+        "address": "321 Maple Dr",
+        "price": 66949,
+        "bedrooms": 98451,
+        "bathrooms": 8854,
+        "sqft": 74396,
+        "created_at": "2023-09-13T13:55:04.626Z",
+        "updated_at": "2023-09-13T19:51:38.483Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e1bf193-4c49-4216-9eec-4bce2f9ee8ad",
+        "address": "654 Pine Rd",
+        "price": 67710,
+        "bedrooms": 86287,
+        "bathrooms": 64852,
+        "sqft": 5479,
+        "created_at": "2023-09-13T20:53:49.813Z",
+        "updated_at": "2023-09-13T19:13:54.631Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "88420fcf-2fec-43a7-9fed-fb2a607d84d2",
+        "name": "Sales Data",
+        "source": "CRM System",
+        "created_at": "2023-09-13T08:55:03.253Z",
+        "updated_at": "2023-09-13T11:06:57.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd8fc20e-6e9d-44f1-ab45-d4177d1d1a2e",
+        "name": "Customer Data",
+        "source": "E-commerce Platform",
+        "created_at": "2023-09-13T01:39:54.874Z",
+        "updated_at": "2023-09-13T12:24:32.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6853ead-cd2c-4bb7-950f-289bf74e0de3",
+        "name": "Product Data",
+        "source": "ERP System",
+        "created_at": "2023-09-12T22:22:17.106Z",
+        "updated_at": "2023-09-13T02:31:47.424Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "548d4e16-4e80-4ca8-b0f8-ce69e44da8a1",
+        "name": "Inventory Data",
+        "source": "Social Media",
+        "created_at": "2023-09-13T10:38:04.815Z",
+        "updated_at": "2023-09-13T04:03:28.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba79244c-fc2a-434f-82f0-e0119c894b30",
+        "name": "Marketing Data",
+        "source": "Survey Data",
+        "created_at": "2023-09-13T02:03:53.329Z",
+        "updated_at": "2023-09-13T19:51:31.236Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "a9a0bc80-c914-4208-bb3c-20d24f8d3650",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T05:52:56.069Z",
+        "updated_at": "2023-09-13T05:58:21.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0053c24b-daa8-488e-b862-9fb36ab9991b",
+        "name": "Payment API",
+        "url": "https://api.paymentprovider.com",
+        "created_at": "2023-09-13T03:26:55.672Z",
+        "updated_at": "2023-09-13T12:43:10.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c85513a8-d287-4741-8e56-b989b7bb50d8",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T05:36:03.601Z",
+        "updated_at": "2023-09-13T11:35:57.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc9fc38d-cf30-4847-bfc7-063d099b7c5b",
+        "name": "Email API",
+        "url": "https://api.emailservice.com",
+        "created_at": "2023-09-13T17:15:42.232Z",
+        "updated_at": "2023-09-13T15:10:22.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b924299d-6cd6-45cb-8cd4-04a7a3003979",
+        "name": "Analytics API",
+        "url": "https://api.analyticsprovider.com",
+        "created_at": "2023-09-13T03:42:52.660Z",
+        "updated_at": "2023-09-13T12:03:23.523Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c8491d63-5218-4fc7-9873-114b85c7af9e",
+        "email": "Manley_Schroeder-Rice80@hotmail.com",
+        "firstName": "Brandyn",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40645995",
+        "tenantId": null
+      },
+      {
+        "reference": "2031eb55-085a-41c7-b7ad-bc1a9f053578",
+        "email": "Cordell.Sawayn47@hotmail.com",
+        "firstName": "Stella",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/670.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9993bcfc-9e02-4542-92b1-8ce0c8dedf38",
+        "email": "June_Zieme@gmail.com",
+        "firstName": "Elmore",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33797221",
+        "tenantId": null
+      },
+      {
+        "reference": "e702103c-e7b9-42d2-bb2e-312dc7d8b1fb",
+        "email": "David.OConner12@hotmail.com",
+        "firstName": "Shanie",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/667.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b62baa62-74d3-45dd-ab6e-234f75933acb",
+        "email": "Edwin88@yahoo.com",
+        "firstName": "Isac",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/317.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "86ce183e-0463-4537-94f2-09acbbf6cfbf",
+        "protocol": "HTTPS",
+        "encryption": "AES",
+        "created_at": "2023-09-13T16:08:54.701Z",
+        "updated_at": "2023-09-13T09:35:36.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "749719a9-48c6-4196-8022-56b84beb0141",
+        "protocol": "SSH",
+        "encryption": "RSA",
+        "created_at": "2023-09-13T07:13:46.558Z",
+        "updated_at": "2023-09-13T20:40:22.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6536b47-4246-4fa2-ac4f-aa67ceaf085a",
+        "protocol": "TLS",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-13T06:00:07.476Z",
+        "updated_at": "2023-09-13T03:48:52.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01c9412e-44ba-480b-a3fc-264f41c9ef1d",
+        "protocol": "IPSec",
+        "encryption": "Twofish",
+        "created_at": "2023-09-13T09:06:21.042Z",
+        "updated_at": "2023-09-13T14:09:29.362Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe9270de-0c2e-4c07-8558-c4324c9fcf26",
+        "protocol": "WPA2",
+        "encryption": "Serpent",
+        "created_at": "2023-09-12T23:28:13.254Z",
+        "updated_at": "2023-09-13T07:15:24.302Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "4fbf03c4-65ed-4425-9104-34f727eaf289",
+        "address": "123 Main Street",
+        "price": 66996,
+        "bedrooms": 87960,
+        "bathrooms": 59837,
+        "sqft": 88052,
+        "created_at": "2023-09-13T16:58:26.586Z",
+        "updated_at": "2023-09-13T16:20:02.902Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f14aaaf6-ba13-4334-82d4-bbe267411583",
+        "address": "456 Elm Avenue",
+        "price": 86696,
+        "bedrooms": 38075,
+        "bathrooms": 63052,
+        "sqft": 52852,
+        "created_at": "2023-09-13T07:20:24.913Z",
+        "updated_at": "2023-09-13T09:10:42.865Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bacb7a2d-5f3a-41e3-a0d2-a44929017bf0",
+        "address": "789 Oak Lane",
+        "price": 73615,
+        "bedrooms": 96850,
+        "bathrooms": 37626,
+        "sqft": 89950,
+        "created_at": "2023-09-13T05:09:32.658Z",
+        "updated_at": "2023-09-13T14:47:01.779Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e1a33a7e-3375-4ea6-89ac-da5f4d3b608f",
+        "address": "321 Pine Road",
+        "price": 84627,
+        "bedrooms": 20750,
+        "bathrooms": 13103,
+        "sqft": 64750,
+        "created_at": "2023-09-13T19:03:49.225Z",
+        "updated_at": "2023-09-13T19:35:42.957Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a49e9f55-78f3-44d5-92dd-c54b60a33fe6",
+        "address": "654 Maple Court",
+        "price": 32153,
+        "bedrooms": 12681,
+        "bathrooms": 14034,
+        "sqft": 48291,
+        "created_at": "2023-09-13T00:37:39.551Z",
+        "updated_at": "2023-09-13T01:25:30.488Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "0968c234-31e3-4239-99e3-d9ff2887cf3e",
+        "name": "Sales Data",
+        "source": "CRM System",
+        "created_at": "2023-09-13T01:03:53.504Z",
+        "updated_at": "2023-09-12T22:41:58.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fbc4f02-ef8b-4f9d-a4d4-2070b5fcc109",
+        "name": "Customer Data",
+        "source": "E-commerce Platform",
+        "created_at": "2023-09-13T18:57:50.493Z",
+        "updated_at": "2023-09-13T11:20:34.383Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "408e5dd3-3927-4b63-8850-086b6d5b4b45",
+        "name": "Product Data",
+        "source": "ERP Software",
+        "created_at": "2023-09-13T10:16:38.722Z",
+        "updated_at": "2023-09-13T10:39:09.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "957172b0-2e9b-4b75-821b-362c64434358",
+        "name": "Inventory Data",
+        "source": "Data Warehouse",
+        "created_at": "2023-09-13T01:05:32.421Z",
+        "updated_at": "2023-09-13T17:14:24.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebdfc42-e67e-4835-8a09-7787d5d90460",
+        "name": "Financial Data",
+        "source": "API Integration",
+        "created_at": "2023-09-13T17:44:20.538Z",
+        "updated_at": "2023-09-12T23:40:37.084Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "6287ca79-0af9-4bb7-80e9-ce0140c57972",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T17:33:06.653Z",
+        "updated_at": "2023-09-13T16:56:04.577Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89fe828b-0937-4436-87da-c3f9faf7cc41",
+        "name": "Payment API",
+        "url": "https://api.paymentprovider.com",
+        "created_at": "2023-09-13T19:34:36.313Z",
+        "updated_at": "2023-09-13T16:17:31.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fca82d8-a886-4178-96b4-48b4e3541f29",
+        "name": "Social Media API",
+        "url": "https://api.socialmedia.com",
+        "created_at": "2023-09-13T00:46:25.398Z",
+        "updated_at": "2023-09-13T05:18:41.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c3ab576-9429-4dde-b959-c14318703dd4",
+        "name": "Maps API",
+        "url": "https://api.maps.com",
+        "created_at": "2023-09-12T21:34:48.236Z",
+        "updated_at": "2023-09-13T01:42:34.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98e35839-bec8-4ba5-8c2e-c8901c8cf455",
+        "name": "Email API",
+        "url": "https://api.emailprovider.com",
+        "created_at": "2023-09-13T03:16:04.211Z",
+        "updated_at": "2023-09-13T09:48:38.228Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1ce3adb4-402c-4cbd-b901-ca4197dbd56b",
+        "email": "Cathy_Quitzon@gmail.com",
+        "firstName": "Gonzalo",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cba907a5-1b79-4afe-8571-3ef5fe139998",
+        "email": "Mathilde56@hotmail.com",
+        "firstName": "Assunta",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/508.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "910cb15e-205f-49f9-ba89-735fabb625ff",
+        "email": "Mazie_Yundt87@gmail.com",
+        "firstName": "Alysa",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3172270",
+        "tenantId": null
+      },
+      {
+        "reference": "456a2a8b-8086-4c02-ade1-725b3bdbcee7",
+        "email": "Charley75@hotmail.com",
+        "firstName": "Frederic",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97966484",
+        "tenantId": null
+      },
+      {
+        "reference": "f1b0c734-9463-42b8-a44c-418462023106",
+        "email": "Mafalda93@gmail.com",
+        "firstName": "Eusebio",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "9d38323f-d0b7-4a4d-a38b-5f4f59fb3777",
+        "protocol": "HTTPS",
+        "encryption": "AES-256",
+        "created_at": "2023-09-13T04:21:16.320Z",
+        "updated_at": "2023-09-13T05:48:59.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "172eda41-9851-4187-a526-66790b02c61b",
+        "protocol": "SSH",
+        "encryption": "RSA-2048",
+        "created_at": "2023-09-13T05:23:02.024Z",
+        "updated_at": "2023-09-13T03:43:41.781Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04203ecc-5d23-46f0-acae-6c0fb36eacb2",
+        "protocol": "TLS",
+        "encryption": "SHA-512",
+        "created_at": "2023-09-13T08:58:42.374Z",
+        "updated_at": "2023-09-13T10:44:54.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ebc393-5d1c-4b6a-a831-97cae2eb09ac",
+        "protocol": "IPSec",
+        "encryption": "Blowfish",
+        "created_at": "2023-09-12T22:54:04.246Z",
+        "updated_at": "2023-09-13T15:31:10.881Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "634eafa7-e2d8-40ce-a08d-b578ed0e56b2",
+        "protocol": "SFTP",
+        "encryption": "Triple DES",
+        "created_at": "2023-09-13T02:41:41.887Z",
+        "updated_at": "2023-09-13T08:28:59.662Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "04f66b11-fda1-4238-aff0-64bac3b9d387",
+        "address": "123 Main St",
+        "price": 77034,
+        "bedrooms": 34477,
+        "bathrooms": 82903,
+        "sqft": 52092,
+        "created_at": "2023-09-13T13:09:06.676Z",
+        "updated_at": "2023-09-13T00:48:06.864Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c90ebcbb-6793-415b-b441-c4d3d94bf1b7",
+        "address": "456 Elm St",
+        "price": 62814,
+        "bedrooms": 71372,
+        "bathrooms": 35748,
+        "sqft": 41531,
+        "created_at": "2023-09-13T15:26:19.527Z",
+        "updated_at": "2023-09-13T16:10:57.178Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b90430e5-b7c3-4a99-ac47-5b27c5dc694e",
+        "address": "789 Oak Ave",
+        "price": 70725,
+        "bedrooms": 14705,
+        "bathrooms": 93010,
+        "sqft": 64907,
+        "created_at": "2023-09-13T21:10:52.377Z",
+        "updated_at": "2023-09-13T02:31:17.386Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4b4e8ba0-70b2-4050-b620-3f2c5a311fc1",
+        "address": "321 Maple Dr",
+        "price": 57541,
+        "bedrooms": 78531,
+        "bathrooms": 16565,
+        "sqft": 76856,
+        "created_at": "2023-09-13T04:57:11.905Z",
+        "updated_at": "2023-09-13T18:27:29.113Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "448bc59e-d078-4af4-a0bd-16cb1fea8019",
+        "address": "654 Pine Ln",
+        "price": 54536,
+        "bedrooms": 51261,
+        "bathrooms": 47152,
+        "sqft": 56083,
+        "created_at": "2023-09-13T10:01:42.989Z",
+        "updated_at": "2023-09-13T20:55:13.298Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "dataset": [
+      {
+        "id": "f6676cce-e6b7-47a5-b0b3-3a22764f94a7",
+        "name": "Sales Data",
+        "source": "Company CRM",
+        "created_at": "2023-09-13T20:39:15.689Z",
+        "updated_at": "2023-09-13T11:55:16.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06d0b404-3644-47a2-9941-b1c99aae97e3",
+        "name": "Customer Data",
+        "source": "Online Surveys",
+        "created_at": "2023-09-12T22:57:30.696Z",
+        "updated_at": "2023-09-13T17:37:46.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f2ad4f-a94a-418f-83c5-437d82d58a16",
+        "name": "Product Data",
+        "source": "Point of Sale System",
+        "created_at": "2023-09-13T04:43:40.267Z",
+        "updated_at": "2023-09-13T20:56:35.041Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95859847-3d7c-494e-b772-5f03d91f58d3",
+        "name": "Inventory Data",
+        "source": "Website Analytics",
+        "created_at": "2023-09-13T16:14:50.335Z",
+        "updated_at": "2023-09-13T13:44:36.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88479155-a78a-415f-820e-a96cc4c87752",
+        "name": "Marketing Data",
+        "source": "Social Media Monitoring",
+        "created_at": "2023-09-13T08:40:58.778Z",
+        "updated_at": "2023-09-13T20:40:10.839Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "api": [
+      {
+        "id": "94c2c679-85c5-4486-868a-25c1ca87412c",
+        "name": "Weather API",
+        "url": "https://api.weather.com",
+        "created_at": "2023-09-13T08:16:28.248Z",
+        "updated_at": "2023-09-12T22:46:10.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd806a0-d174-49ca-bd1a-e8d63318a4c2",
+        "name": "Payment API",
+        "url": "https://api.paymentgateway.com",
+        "created_at": "2023-09-13T15:22:31.084Z",
+        "updated_at": "2023-09-13T04:08:39.796Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "248fd8cb-7b9a-49da-9940-d7fa51e1611c",
+        "name": "Geolocation API",
+        "url": "https://api.geolocation.com",
+        "created_at": "2023-09-13T03:11:22.038Z",
+        "updated_at": "2023-09-13T18:34:55.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0fb8b22-cbf3-4e43-af0e-7675882ad7c4",
+        "name": "Email API",
+        "url": "https://api.emailservice.com",
+        "created_at": "2023-09-13T13:04:23.253Z",
+        "updated_at": "2023-09-13T10:25:14.413Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5a06e37-0ec4-477d-9331-a320142e83e7",
+        "name": "Image Recognition API",
+        "url": "https://api.imagerecognition.com",
+        "created_at": "2023-09-13T19:24:37.153Z",
+        "updated_at": "2023-09-13T00:55:10.432Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2241964f-315d-4c70-a94c-a770c48d08f1",
+        "email": "Jodie.Fadel@gmail.com",
+        "firstName": "Einar",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28998653",
+        "tenantId": null
+      },
+      {
+        "reference": "c27232b6-f00c-400b-af90-d027506fc867",
+        "email": "Alva.Marks74@gmail.com",
+        "firstName": "Daniella",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80599777",
+        "tenantId": null
+      },
+      {
+        "reference": "b75b1415-8601-4332-936a-780602eb3e90",
+        "email": "Meta_Rempel@hotmail.com",
+        "firstName": "Katelyn",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63343936",
+        "tenantId": null
+      },
+      {
+        "reference": "9e67629f-ae6f-4f03-a0a9-e72f437b80a5",
+        "email": "Victoria.Treutel@hotmail.com",
+        "firstName": "Garland",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/387.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9bb0aafb-12a1-4aa7-97d3-49ce30f5c2bb",
+        "email": "Berenice23@gmail.com",
+        "firstName": "King",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20483328",
+        "tenantId": null
+      }
+    ]
+  }
+]
